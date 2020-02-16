@@ -1,0 +1,64 @@
+/* 全体 */
+* {
+  box-sizing: border-box;
+}
+
+/* この下から記述 */
+body {
+  background-color: aquamarine;
+  width: 1200px;
+}
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sentaku {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  border: solid 3px #6091d3;
+  border-radius: 10px;
+  width: 300px;
+}
+label {
+  display: block;
+  position: relative;
+  padding-left: 1em;
+  padding: 0.5em 1em;
+  color: black;
+  padding-top: 30px;
+}
+label input {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.vs {
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+  padding-top: 120px;
+}
+.syoubu {
+  display: flex;
+  margin: 20px auto;
+  width: 1000px;
+  height: 250px;
+}
+.submit {
+  text-align: center;
+  font-size: 30px;
+  background-color: #248;
+  color: #fff;
+  border-style: none;
+  margin: 10px auto;
+  width: 120px;
+}
+.submit:hover {
+  background-color: #24d;
+  color: #fff;
+}
